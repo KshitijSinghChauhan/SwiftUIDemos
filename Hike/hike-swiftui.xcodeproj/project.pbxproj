@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103341E12B1DE94E00F5F67E /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341E02B1DE94E00F5F67E /* CustomButtonView.swift */; };
+		103341E32B1DF3FE00F5F67E /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341E22B1DF3FE00F5F67E /* GradientButtonStyle.swift */; };
+		103341E72B1E03A200F5F67E /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341E62B1E03A200F5F67E /* CustomCircleView.swift */; };
+		103341E92B1E0FF900F5F67E /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341E82B1E0FF900F5F67E /* MotionAnimationView.swift */; };
+		103341F02B1EF48800F5F67E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341EF2B1EF48800F5F67E /* SettingsView.swift */; };
+		103341F22B1F316D00F5F67E /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103341F12B1F316D00F5F67E /* CustomListRowView.swift */; };
+		1037F6DE2B1DC80800D33662 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1037F6DD2B1DC80800D33662 /* ColorExtension.swift */; };
+		10A7B3212B1DC31900FB71C2 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */; };
+		10B3834D2B1DB3E800E35A5B /* hike_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3834C2B1DB3E800E35A5B /* hike_swiftuiApp.swift */; };
+		10B3834F2B1DB3E800E35A5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3834E2B1DB3E800E35A5B /* ContentView.swift */; };
+		10B383512B1DB3E900E35A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B383502B1DB3E900E35A5B /* Assets.xcassets */; };
+		10B383542B1DB3E900E35A5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B383532B1DB3E900E35A5B /* Preview Assets.xcassets */; };
+		10B3835B2B1DC02500E35A5B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B3835A2B1DC02500E35A5B /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		103341E02B1DE94E00F5F67E /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		103341E22B1DF3FE00F5F67E /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		103341E62B1E03A200F5F67E /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		103341E82B1E0FF900F5F67E /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		103341EF2B1EF48800F5F67E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		103341F12B1F316D00F5F67E /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
+		1037F6DD2B1DC80800D33662 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		10B383492B1DB3E800E35A5B /* hike-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hike-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B3834C2B1DB3E800E35A5B /* hike_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hike_swiftuiApp.swift; sourceTree = "<group>"; };
+		10B3834E2B1DB3E800E35A5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10B383502B1DB3E900E35A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10B383532B1DB3E900E35A5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10B3835A2B1DC02500E35A5B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10B383462B1DB3E800E35A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103341EE2B1EF46A00F5F67E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				10B3834E2B1DB3E800E35A5B /* ContentView.swift */,
+				103341EF2B1EF48800F5F67E /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		1037F6DC2B1DC7F400D33662 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1037F6DD2B1DC80800D33662 /* ColorExtension.swift */,
+				103341E22B1DF3FE00F5F67E /* GradientButtonStyle.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1079B8022B1DC2DB00009E56 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				10B3835A2B1DC02500E35A5B /* CardView.swift */,
+				10A7B3202B1DC31900FB71C2 /* CustomBackgroundView.swift */,
+				103341E02B1DE94E00F5F67E /* CustomButtonView.swift */,
+				103341E62B1E03A200F5F67E /* CustomCircleView.swift */,
+				103341E82B1E0FF900F5F67E /* MotionAnimationView.swift */,
+				103341F12B1F316D00F5F67E /* CustomListRowView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		10B383402B1DB3E800E35A5B = {
+			isa = PBXGroup;
+			children = (
+				10B3834B2B1DB3E800E35A5B /* hike-swiftui */,
+				10B3834A2B1DB3E800E35A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10B3834A2B1DB3E800E35A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10B383492B1DB3E800E35A5B /* hike-swiftui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10B3834B2B1DB3E800E35A5B /* hike-swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				1037F6DC2B1DC7F400D33662 /* Utility */,
+				10B3834C2B1DB3E800E35A5B /* hike_swiftuiApp.swift */,
+				103341EE2B1EF46A00F5F67E /* Screen */,
+				10B383502B1DB3E900E35A5B /* Assets.xcassets */,
+				10B383522B1DB3E900E35A5B /* Preview Content */,
+				1079B8022B1DC2DB00009E56 /* Component */,
+			);
+			path = "hike-swiftui";
+			sourceTree = "<group>";
+		};
+		10B383522B1DB3E900E35A5B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				10B383532B1DB3E900E35A5B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10B383482B1DB3E800E35A5B /* hike-swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B383572B1DB3E900E35A5B /* Build configuration list for PBXNativeTarget "hike-swiftui" */;
+			buildPhases = (
+				10B383452B1DB3E800E35A5B /* Sources */,
+				10B383462B1DB3E800E35A5B /* Frameworks */,
+				10B383472B1DB3E800E35A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hike-swiftui";
+			productName = "hike-swiftui";
+			productReference = 10B383492B1DB3E800E35A5B /* hike-swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10B383412B1DB3E800E35A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					10B383482B1DB3E800E35A5B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 10B383442B1DB3E800E35A5B /* Build configuration list for PBXProject "hike-swiftui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10B383402B1DB3E800E35A5B;
+			productRefGroup = 10B3834A2B1DB3E800E35A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10B383482B1DB3E800E35A5B /* hike-swiftui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10B383472B1DB3E800E35A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B383542B1DB3E900E35A5B /* Preview Assets.xcassets in Resources */,
+				10B383512B1DB3E900E35A5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B383452B1DB3E800E35A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B3834F2B1DB3E800E35A5B /* ContentView.swift in Sources */,
+				103341E72B1E03A200F5F67E /* CustomCircleView.swift in Sources */,
+				103341F22B1F316D00F5F67E /* CustomListRowView.swift in Sources */,
+				10B3835B2B1DC02500E35A5B /* CardView.swift in Sources */,
+				10B3834D2B1DB3E800E35A5B /* hike_swiftuiApp.swift in Sources */,
+				103341E12B1DE94E00F5F67E /* CustomButtonView.swift in Sources */,
+				103341F02B1EF48800F5F67E /* SettingsView.swift in Sources */,
+				103341E32B1DF3FE00F5F67E /* GradientButtonStyle.swift in Sources */,
+				103341E92B1E0FF900F5F67E /* MotionAnimationView.swift in Sources */,
+				10A7B3212B1DC31900FB71C2 /* CustomBackgroundView.swift in Sources */,
+				1037F6DE2B1DC80800D33662 /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10B383552B1DB3E900E35A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10B383562B1DB3E900E35A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10B383582B1DB3E900E35A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom AppIcon-Camera AppIcon-Backpack AppIcon-Campfire";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hike-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 84UUUS3LYJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hike;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitijchauhan.hike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10B383592B1DB3E900E35A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-MagnifyingGlass AppIcon-Map AppIcon-Mushroom AppIcon-Camera AppIcon-Backpack AppIcon-Campfire";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hike-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 84UUUS3LYJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hike;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitijchauhan.hike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10B383442B1DB3E800E35A5B /* Build configuration list for PBXProject "hike-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B383552B1DB3E900E35A5B /* Debug */,
+				10B383562B1DB3E900E35A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10B383572B1DB3E900E35A5B /* Build configuration list for PBXNativeTarget "hike-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B383582B1DB3E900E35A5B /* Debug */,
+				10B383592B1DB3E900E35A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10B383412B1DB3E800E35A5B /* Project object */;
+}
