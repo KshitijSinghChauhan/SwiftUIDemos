@@ -1,0 +1,19 @@
+//
+//  VideoPlayerHelper.swift
+//  africa-swiftui
+//
+//  Created by Kshitij Singh Chauhan on 12/12/23.
+//
+
+import Foundation
+import AVKit
+
+var videoPlayer: AVPlayer?
+
+func playVideo(fileName: String, fileFormat: String) -> AVPlayer {
+    if Bundle.main.url(forResource: fileName, withExtension: fileFormat) != nil {
+        videoPlayer = AVPlayer(url: Bundle.main.url(forResource: fileName, withExtension: fileFormat)!)
+        videoPlayer?.play() 
+    }
+    return videoPlayer!
+}
